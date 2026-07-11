@@ -1,0 +1,4 @@
+numpy>=1.21.0
+matplotlib>=3.4.0
+torch>=2.0.0
+torchvision>=0.15.0  # only needed for horizon_net.py (MNIST download)
