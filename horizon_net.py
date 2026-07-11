@@ -236,7 +236,7 @@ results = {
     "results_by_rho": results_by_rho,
 }
 
-with open("/home/claude/horizon_net.json", "w") as f:
+with open("horizon_net.json", "w") as f:
     json.dump(results, f, indent=2, default=str)
 print("\nResults saved to horizon_net.json")
 print(json.dumps(results, indent=2, default=str))
